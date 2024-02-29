@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applight</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .image {
+            width: 100%;
+            height: 280px;
+            background-image: linear-gradient(#cda0faa9, #cda0faa9), url(./images/video-bg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            /* color: #8e1efc; */
+
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="bg-gradient-to-r from-[#cda0fa] to-[#7f66fe]">
+
+        <!-- navbar section -->
+        <header class="w-[80%] mx-auto">
+            <div class="navbar ">
+                <div class="flex flex-row-reverse  justify-between w-[100%] lg:w-[20%] ">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost text-white lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content  mt-2 z-[1] p-2 right-2 shadow bg-base-100 rounded-box ml-[-20]  w-52">
+                            <li><a>Home</a></li>
+                            <li><a>ABOUT</a></li>
+                            <li><a>FEATURES</a></li>
+                            <li><a>TEAM</a></li>
+                            <li><a>TESTIMONIALS</a></li>
+                            <li><a>FAQ</a></li>
+                            <li><a>CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="navbar-end hidden w-full lg:flex">
+                    <ul class="menu menu-horizontal text-white  font-semibold  px-1">
+                        <li class=""><a>Home</a></li>
+                        <li class=""><a>ABOUT</a></li>
+                        <li class=""><a>FEATURES</a></li>
+                        <li class=""><a>TEAM</a></li>
+                        <li class=""><a>TESTIMONIALS</a></li>
+                        <li class=""><a>FAQ</a></li>
+                        <li class=""><a>CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+    </div>
+
+
+    <!-- banner section  -->
+
+    <section class="bg-gradient-to-r from-[#cda0fa] to-[#7f66fe] pt-5 mb-10">
+        <div class="banner w-[80%] mx-auto">
+            <div class="content flex justify-between items-center lg:flex-row flex-col pb-4 lg:pb-1 ">
+                <div class="text text-white lg:w-[65%] text-center lg:text-left ">
+                    <h1 class="text-4xl font-bold">Best App Website Template</h1>
+                    <h3 class="text-lg my-5  font-semibold">This awesome template designed by <span
+                            class="border-b-2 ">W3
+                            Template.</span>
+                    </h3>
+                    <p class="text-base 	mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur
+                        hendrerit
+                        neque massa, sit
+                        amet
+                        tristique ante porta ut. In sodales et justo vel vulputate. Pellentesque habitant morbi
+                        tristique
+                        senectus et netus et malesuada fames ac turpis egestas.
+                    </p>
+                    <div class="img flex justify-center lg:justify-start gap-2 mb-5 lg:mb-1">
+                        <img class="w-32 rounded-lg " src="./images/appstore.png" alt="">
+                        <img class="w-32 rounded-lg " src="./images/playstore.png" alt="">
+                    </div>
+
+                </div>
+                <div class="img lg:w-[30%]">
+                    <img src="./images/iphone-screen.png" alt="">
+                </div>
+            </div>
+        </div>
+        <img class="w-full lg:w-60" src="./images/applight-wave.svg " alt="">
+    </section>
+
+
+
+    <!-- about section -->
+    <div class="about w-[80%] mx-auto my-20">
+        <div class="title text-center mb-20">
+            <h1 class="text-[#7f66fe] text-3xl font-bold border-b-2 border-[#8e1efc] inline-block px-7 pb-2 mb-3">About
+            </h1>
+            <p class="text-base font-medium text-[#899299]">Sed quis nisi nisi. Proin consectetur porttitor dui sit <br>
+                amet
+                viverra.
+                Fusce
+                sit
+                amet lorem faucibus,
+                vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="content grid gap-7 grid-cols-1 lg:grid-cols-3">
+            <div class="card text-center mt-7">
+                <div class="mx-auto">
+                    <div
+                        class="img bg-gradient-to-r from-[#cda0fa] to-[#7f66fe] w-28 h-28 flex justify-center items-center rounded-full ">
+                        <i class=" fa-solid fa-life-ring text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class=" text">
+                    <h1 class="text-2xl font-semibold my-4">Support</h1>
+                    <p class=" text-[#899299]">Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed
+                        vitae condimentum
+                        nulla.</p>
+                </div>
+            </div>
+            <div class="card text-center mt-7">
+                <div class="mx-auto">
+                    <div
+                        class="img bg-gradient-to-r from-[#cda0fa] to-[#7f66fe] w-28 h-28 flex justify-center items-center rounded-full ">
+                        <i class="fa-solid fa-mobile text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class=" text">
+                    <h1 class="text-2xl font-semibold my-4">Cross Platform
+                    </h1>
+                    <p class=" text-[#899299]">Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed
+                        vitae condimentum
+                        nulla.</p>
+                </div>
+            </div>
+            <div class="card text-center mt-7">
+                <div class="mx-auto">
+                    <div
+                        class="img bg-gradient-to-r from-[#cda0fa] to-[#7f66fe] w-28 h-28 flex justify-center items-center rounded-full ">
+                        <i class="fa-solid fa-bolt text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class=" text">
+                    <h1 class="text-2xl font-semibold my-4">Fast</h1>
+                    <p class=" text-[#899299]">Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed
+                        vitae condimentum
+                        nulla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 text-center">
+            <button
+                class="py-3 px-9 mx-auto bg-transparent border-2 rounded-lg border-[#8e1efc] text-[#8e1efc] font-semibold hover:bg-[#8e1efc] hover:text-white  ease-in  duration-300">Learn
+                More</button>
+        </div>
+    </div>
+
+
+
+    <!-- background img slider -->
+    <div class="image my-20 flex justify-center items-center">
+        <div class=" flex flex-col justify-center items-center">
+            <h1 class="text-3xl font-bold text-white mb-3">Watch Now</h1>
+            <div class="flex justify-center items-center rounded-full text-[#8e1efc] bg-white w-16 h-16">
+                <i class="fa-solid fa-play text-3xl   "></i>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- feature section -->
+    <div class="feature w-[80%] mx-auto my-20">
+        <div class="title text-center mb-20">
+            <h1 class="text-[#7f66fe] text-3xl font-bold border-b-2 border-[#8e1efc] inline-block px-7 pb-2 mb-3">
+                Feature
+            </h1>
+            <p class="text-base font-medium text-[#899299]">Sed quis nisi nisi. Proin consectetur porttitor dui sit <br>
+                amet
+                viverra.
+                Fusce
+                sit
+                amet lorem faucibus,
+                vestibulum ante in, pharetra ante.</p>
+        </div>
+
+        <div class="content grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="left">
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="text text-center lg:text-right">
+                        <h3 class="text-base font-semibold">Fast Processing</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-bolt border-2 border-[#8e1efc] text-[#8e1efc]  flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="text text-center lg:text-right">
+                        <h3 class="text-base font-semibold">Low Power Consuming</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-battery-full border-2 border-[#8e1efc] text-[#8e1efc]   flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="text text-center lg:text-right">
+                        <h3 class="text-base font-semibold">Wifi Compatibility</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-wifi border-2 border-[#8e1efc] text-[#8e1efc]   flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="middle mx-auto">
+                <img src="./images/iphone-screen.png" alt="">
+            </div>
+            <div class="right">
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-check-double border-2 border-[#8e1efc] text-[#8e1efc]  flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                    <div class="text text-center lg:text-left">
+                        <h3 class="text-base font-semibold">Regular Updates</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-dollar-sign border-2 border-[#8e1efc] text-[#8e1efc]  flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                    <div class="text text-center lg:text-left">
+                        <h3 class="text-base font-semibold">Save Money</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                </div>
+
+                <div class="card flex flex-col text-center lg:flex-row gap-5 mt-10 ">
+                    <div class="img">
+                        <i
+                            class="fa-solid fa-hard-drive border-2 border-[#8e1efc] text-[#8e1efc]  flex justify-center items-center w-12 h-12 rounded-full"></i>
+                    </div>
+                    <div class="text text-center lg:text-left">
+                        <h3 class="text-base font-semibold">Unlimited Storage</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididugnt
+                            ut labore</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- team section -->
+    <section class="team w-[80%] mx-auto my-20">
+        <div class="title text-center mb-20">
+            <h1 class="text-[#7f66fe] text-3xl font-bold border-b-2 border-[#8e1efc] inline-block px-7 pb-2 mb-3">
+                Our Team
+            </h1>
+            <p class="text-base font-medium text-[#899299]">Sed quis nisi nisi. Proin consectetur porttitor dui sit <br>
+                amet
+                viverra.
+                Fusce
+                sit
+                amet lorem faucibus,
+                vestibulum ante in, pharetra ante.</p>
+        </div>
+
+        <div class="content grid grid-cols-1 lg:grid-cols-3 ">
+
+            <div class="card text-center">
+                <div class="img w-40 mx-auto py-9 ">
+                    <img class="rounded-full " src="./images/user1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1 class="text-lg font-semibold text-[#8e1efc]">Nitu Singh</h1>
+                    <p class="text-sm font-medium text-[#999] ">Marketing Specialist</p>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="img w-40 mx-auto py-9 ">
+                    <img class="rounded-full " src="./images/user2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1 class="text-lg font-semibold text-[#8e1efc]">Yogesh Singh</h1>
+                    <p class="text-sm font-medium text-[#999] ">CEO & Founder</p>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="img w-40 mx-auto py-9 ">
+                    <img class="rounded-full " src="./images/user3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1 class="text-lg font-semibold text-[#8e1efc]">Nisha Sharma</h1>
+                    <p class="text-sm font-medium text-[#999] ">Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- testimonial section  -->
+    <section class="testimonial bg-gradient-to-r from-[#cda0fa] to-[#7f66fe] py-2 my-20">
+        <div class=" w-[80%] mx-auto my-20 ">
+            <div class="title text-center mb-20">
+                <h1 class="text-white text-3xl font-bold border-b-2 border-[#8e1efc] inline-block px-7 pb-2 mb-3">
+                    Testimonial
+                </h1>
+                <p class="text-base font-medium text-white">Sed quis nisi nisi. Proin consectetur porttitor dui sit
+                    <br>
+                    amet
+                    viverra.
+                    Fusce
+                    sit
+                    amet lorem faucibus,
+                    vestibulum ante in, pharetra ante.
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+
+
+            <div class="carousel w-[100%] lg:w-[60%]">
+
+
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div
+                        class="card flex flex-col py-4 text-center lg:flex-row items-center px-4 gap-4 w-[80%] mx-auto bg-[#eae5ff]">
+                        <div class=" border-2 lg:w-[40%] flex justify-center  ">
+                            <div class="img w-28  h-28  bg-white flex justify-center items-center rounded-full ">
+                                <img class="w-20   rounded-full" src=" ./images/user1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="text border-2">
+                            <h1 class="text-2xl font-bold">Marketing Specialist</h1>
+                            <h3 class=" text-lg font-medium">Nitu Singh</h3>
+                            <p class="text-sm">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet
+                                dolore
+                                magna aliquam eratvo lutpat.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 lg:left-5 lg:right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div
+                        class="card flex flex-col py-4 text-center lg:flex-row items-center px-4 gap-4 w-[80%] mx-auto bg-[#eae5ff]">
+                        <div class=" border-2 lg:w-[40%] flex justify-center  ">
+                            <div class="img w-28  h-28  bg-white flex justify-center items-center rounded-full ">
+                                <img class="w-20   rounded-full" src=" ./images/user1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="text border-2">
+                            <h1 class="text-2xl font-bold">Marketing Specialist</h1>
+                            <h3 class=" text-lg font-medium">Nitu Singh</h3>
+                            <p class="text-sm">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet
+                                dolore
+                                magna aliquam eratvo lutpat.</p>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+
+                <div id="slide3" class="carousel-item relative w-full">
+                    < <div
+                        class="card flex flex-col py-4 text-center lg:flex-row items-center px-4 gap-4 w-[80%] mx-auto bg-[#eae5ff]">
+                        <div class=" border-2 lg:w-[40%] flex justify-center  ">
+                            <div class="img w-28  h-28  bg-white flex justify-center items-center rounded-full ">
+                                <img class="w-20   rounded-full" src=" ./images/user1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="text border-2">
+                            <h1 class="text-2xl font-bold">Marketing Specialist</h1>
+                            <h3 class=" text-lg font-medium">Nitu Singh</h3>
+                            <p class="text-sm">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet
+                                dolore
+                                magna aliquam eratvo lutpat.</p>
+                        </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+
+            <div id="slide4" class="carousel-item relative w-full">
+                <div
+                    class="card flex flex-col py-4 text-center lg:flex-row items-center px-4 gap-4 w-[80%] mx-auto bg-[#eae5ff]">
+                    <div class=" border-2 lg:w-[40%] flex justify-center  ">
+                        <div class="img w-28  h-28  bg-white flex justify-center items-center rounded-full ">
+                            <img class="w-20   rounded-full" src=" ./images/user1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="text border-2">
+                        <h1 class="text-2xl font-bold">Marketing Specialist</h1>
+                        <h3 class=" text-lg font-medium">Nitu Singh</h3>
+                        <p class="text-sm">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                            laoreet
+                            dolore
+                            magna aliquam eratvo lutpat.</p>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
